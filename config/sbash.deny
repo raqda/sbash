@@ -1,0 +1,6 @@
+# this line is comment
+date:=:ALL
+ls:^:ALL
+df:.:admin2
+
+
