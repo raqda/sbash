@@ -15,7 +15,7 @@ sbashは、対話処理に対して以下2機能を追加したbashです。
     root:x:0:0:root:/root:/bin/sbash
     ...
 
-### コマンドフィルター機能
+## コマンドフィルター機能
     # touch /etc/sbash.deny
     # touch /etc/sbash.allow
 
@@ -37,7 +37,7 @@ sbashは、対話処理に対して以下2機能を追加したbashです。
 * 設定するコマンドに「:」は使用できません
 * 先頭が「#」で始まる行は、コメント扱いとなります
 
-### コマンドログ機能 ###
+## コマンドログ機能
     touch /var/log/sbash
     chmod 777 /var/log/sbash 
 
